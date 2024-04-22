@@ -1,0 +1,61 @@
+.Register{
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255,255,255,0.5),rgba(255,255,255,0.5)),url("https://images.unsplash.com/photo-1512386233331-f023884a92e8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1195&q=80");
+    background-size:cover;
+}
+
+.RegisterTitle{
+    font-size: 50px;
+    font-family: 'Lora', serif;
+}
+.RegisterTitl{
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: 'Lora', serif;
+}
+.RegisterForm{
+   margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.RegisterForm > label{
+   margin: 10px 0;
+}
+.RegisterForm > input{
+   padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border: none;
+}
+.RegisterButton{
+    margin-top: 20px;
+    cursor: pointer;
+    border:none;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: rgb(110, 110, 110);
+    color: white;
+}
+.RegisterButton:hover{
+    background-color: rgb(152, 150, 150);
+}
+.RegisterLoginButton{
+    position: absolute;
+    top:60px;
+    left: 50px;
+    width:80px;
+    background-color: rgb(131, 84, 84);
+    color: white;
+    cursor:pointer;
+    border:none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.RegisterLoginButton:hover{
+    background-color: rgb(155, 109, 109);
+}
